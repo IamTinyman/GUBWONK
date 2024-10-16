@@ -1,1 +1,7 @@
 # Knowbug
+dataset.py将五个模型的bugreport合并 并提取了高频掩码词到frequent_words.json利
+all_bug_report 与 all_bug_report_withcode 是爬虫下来的bug report合集
+bug_report.csv是包含数据与one-hot独热编码标签的数据集
+
+pretrain1.ipynb是预训练模型的代码
+目前包含三个finetune模型 
